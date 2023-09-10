@@ -16,12 +16,21 @@ p {
    font-family: 'Open Sans', sans-serif;
    font-size: 1rem;
    font-weight: 400;
+   color: #23272A;
 }
 
-/* HEADER */
+h3 {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 1.5rem;
+   font-weight: 800;
+   color: #23272A;
+}
+
+/**************** HEADER *******************/
 
 header {
    background: url('../imgs/header-background-mobile.png');
+   width: 100%;
    padding: 1.5rem;
 
    display: flex;
@@ -35,7 +44,7 @@ header {
 }
 
 header #header-content {
-   width: 80%;
+   width: 70%;
    max-width: 37.25rem;
 }
 
@@ -81,7 +90,67 @@ header #header-content #header-buttons button#web-discord {
    margin-bottom: 3rem;
 }
 
-@media screen and (min-width: 992px) {
+/************** MAIN *****************/
+
+/* #discord-servers */
+
+#discord-servers {
+   width: 90%;
+   margin: auto;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+#discord-servers #image-discord-servers,
+#discord-channel #image-discord-channel {
+   margin-bottom: 1.69rem;
+}
+
+#discord-servers #image-discord-servers img {
+   width: 100%;
+}
+
+#discord-servers #info-discord-servers h3,
+#discord-channel #info-discord-channel h3 {
+   margin-bottom: 1.69rem;
+}
+
+#discord-servers #info-discord-servers p {
+   margin-bottom: 2.5rem;
+}
+
+#discord-channel {
+   background-color: #F6F6F6;;
+}
+
+#discord-channel {
+   width: 100%;
+   padding: 1.5rem 2.5rem;
+}
+
+#discord-channel #discord-channel-details  {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-content: center;
+}
+
+#discord-channel #discord-channel-details #image-discord-channel,
+#discord-channel #discord-channel-details #info-discord-channel {
+   width: 90%;
+   margin: auto;
+}
+
+#discord-channel #discord-channel-details #image-discord-channel img {
+   width: 100%;
+   margin: auto;
+}
+
+/*************** MEDIA QUERIES **************/
+
+@media screen and (min-width: 1280px) {
    header {
       background: url('../imgs/header-background.png');
       background-repeat: no-repeat;
@@ -116,5 +185,40 @@ header #header-content #header-buttons button#web-discord {
    header #header-content #header-buttons button#web-discord {
       margin-left: 1rem;
       width: 17.5625rem;
+   }
+
+   #discord-servers {
+      flex-direction: row;
+      max-width: 60.79rem;
+      margin: auto;
+   }
+
+   #discord-servers #image-discord-servers {
+      margin-right: 1rem;
+   }
+
+   #discord-servers #image-discord-servers img {
+      width: 37.9375rem;
+   }
+
+   #discord-servers #info-discord-servers h3 {
+      font-size: 2.5rem;
+   }
+
+   #discord-channel #discord-channel-details {
+      flex-direction: row-reverse;
+   }
+
+   #discord-channel #discord-channel-details {
+      max-width: 60rem;
+      margin: auto;
+   }
+
+   #discord-channel #discord-channel-details #image-discord-channel {
+      width: 38rem;
+   }
+
+   #discord-channel #discord-channel-details #info-discord-channel {
+      width: 21rem;
    }
 }
