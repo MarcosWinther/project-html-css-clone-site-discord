@@ -7,4 +7,4 @@ Projeto de HMTL e CSS de Clone da página do Discord usando os conceitos de resp
 > - Neste projeto segui as orientações do arquivo do Figma disponibilizado no curso.
 
 > ## Link GitHubPages:
-> - 
+> - https://marcoswinther.github.io/project-html-css-clone-site-discord/
