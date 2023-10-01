@@ -8,7 +8,7 @@ Esse projeto foi proposto pela expert Michele Ambrosio da plataforma educacional
   <img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 </div>
 
-## Preview:
+## 🖥 Preview:
 
 Site em um Desktop:
 <div>
